@@ -3,7 +3,7 @@ PHP-based web application interfacing with a MariaDB database for dynamic SQL qu
 
 **Due to campus account security reasons, credentials used to access dragon.csustan.edu (live campus server) MariaDB will be omitted from this repo.**
 
-FULL PROJECT DESC. -- Dr. Thomas:
+FULL PROJECT DESC. -- Dr. Megan Thomas:
 CS 4250 Project Part 7
 Demonstration: you must email me a link to your working website [https://dragon.csustan.edu/~resquerra] 
 
