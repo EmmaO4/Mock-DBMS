@@ -1,6 +1,8 @@
 # Mock-DBMS
 PHP-based web application interfacing with a MariaDB database for dynamic SQL queries on a mock grocery system hosted on a live campus server.
 
+ACTUAL PHP BACKEND IS NOT DEPLOYABLE USING GITHUB STATIC PAGES > SEE PHP-WEBAPP FOR WORKING BACKEND FILES. ROOT FOLDER HOLDS DEMO FILES. 
+
 **Due to campus account security reasons, credentials used to access dragon.csustan.edu (live campus server) MariaDB will be omitted from this repo.**
 
 FULL PROJECT DESC. -- Dr. Megan Thomas:
