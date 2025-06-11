@@ -6,55 +6,60 @@
 </head>
 <body>
 
-	<h1>Generic Grocers Inc.</h1>
-	<h4>Team Member Names: Emmanuel Mendoza Rosales, David Moncur, Raul Esquerra </h4>
-	<h3><br>Relations:</h3>
-	<nav>
-		<a href="view_items.php">Item</a><br>
-        	<ul>
-			<a href="view_canned_foods.php">CannedFood</a><br>
-        		<a href="view_dairy_items.php">Dairy</a><br>
-        		<a href="view_fresh_produce.php">FreshProduce</a><br>
-        		<a href="view_hot_foods.php">HotFood</a><br>
-			<a href="view_deli.php">Deli</a><br>
-		</ul>
-        		<a href="view_brands.php">Brand</a><br>
-        	<ul>
-			<a href="view_item_brands.php">Is_A_Part_of</a><br>
-		</ul>
-        	<a href="view_stores.php">Store</a><br>
-		<ul>
-	        	<a href="view_departments.php">Is_department_in</a><br>
-			<a href="view_dep_holds.php">Department_holds</a><br>
-        		<a href="view_department_type.php">Department</a><br>
-			<a href="view_aisles.php">Aisle</a><br>
-	        	<a href="view_store_sells.php">Sells</a><br>
-        	</ul>
-        	<a href="view_sales.php">Sale</a><br>
-		<ul>
-			<a href="view_goon_sale.php">Go_On_Sale</a><br>
-	        	<a href="view_seasons.php">SeasonTime</a><br>
-        	</ul>
-        	<a href="view_recipes.php">Recipe</a><br>
-		<ul>
-			<a href="view_components.php">Is_A_Component</a><br>
-	        	<a href="view_recipe_provisions.php">Provides</a><br>
-		</ul>
-	</nav>
-		<h3><br>Queries:</h3>
-		<p><a href="query1.php"><strong>Query 1:</strong></a> Items on sale in spring 2020. Relation spans over the tables Item, Sale, and Go_On_Sale.</p>
-		<p><a href="query2.php"><strong>Query 2:</strong></a> Find the average price for items categorized as Deli.</p>
-		<p><a href="query3.php"><strong>Query 3:</strong></a> Select all items from the item table that have a source type of ‘Goat’. Note: Only Dairy items have a source type
-. </p>
-		<p><a href="query4.php"><strong>Query 4:</strong></a> Shows the number of recipe ratings categorized by ratings, could be used in the real world to see popularity of provided recipes.</p>
-		<p><a href="query5.php"><strong>Query 5:</strong></a> Show store types per postal code. </p>
-    
-    <h3><br>Ad-hoc Query:</h3>
-    
-<form method="post" action="execute_query.php">
-    <textarea name="sql_query" rows="6" cols="80" placeholder="Query here..." required></textarea><br><br>
-    <input type="submit" name="submit" value="Submit">
-    <input type="reset" value="Clear">
-</form></form>
+    <h1>Generic Grocers Inc.</h1>
+    <h4>Team Member Names: Emmanuel Mendoza Rosales, David Moncur, Raul Esquerra</h4>
+
+    <h3><br>Relations:</h3>
+    <nav>
+        <a href="demo/view_items.html">Item</a><br>
+        <ul>
+            <a href="demo/view_canned_foods.html">CannedFood</a><br>
+            <a href="demo/view_dairy_items.html">Dairy</a><br>
+            <a href="demo/view_fresh_produce.html">FreshProduce</a><br>
+            <a href="demo/view_hot_foods.html">HotFood</a><br>
+            <a href="demo/view_deli.html">Deli</a><br>
+        </ul>
+
+        <a href="demo/view_brands.html">Brand</a><br>
+        <ul>
+            <a href="demo/view_item_brands.html">Is_A_Part_of</a><br>
+        </ul>
+
+        <a href="demo/view_stores.html">Store</a><br>
+        <ul>
+            <a href="demo/view_departments.html">Is_department_in</a><br>
+            <a href="demo/view_dep_holds.html">Department_holds</a><br>
+            <a href="demo/view_department_type.html">Department</a><br>
+            <a href="demo/view_aisles.html">Aisle</a><br>
+            <a href="demo/view_store_sells.html">Sells</a><br>
+        </ul>
+
+        <a href="demo/view_sales.html">Sale</a><br>
+        <ul>
+            <a href="demo/view_goon_sale.html">Go_On_Sale</a><br>
+            <a href="demo/view_seasons.html">SeasonTime</a><br>
+        </ul>
+
+        <a href="demo/view_recipes.html">Recipe</a><br>
+        <ul>
+            <a href="demo/view_components.html">Is_A_Component</a><br>
+            <a href="demo/view_recipe_provisions.html">Provides</a><br>
+        </ul>
+    </nav>
+
+    <h3><br>Queries:</h3>
+    <p><a href="demo/query1.html"><strong>Query 1:</strong></a> Items on sale in spring 2020. Relation spans over the tables Item, Sale, and Go_On_Sale.</p>
+    <p><a href="demo/query2.html"><strong>Query 2:</strong></a> Find the average price for items categorized as Deli.</p>
+    <p><a href="demo/query3.html"><strong>Query 3:</strong></a> Select all items from the item table that have a source type of ‘Goat’. Note: Only Dairy items have a source type.</p>
+    <p><a href="demo/query4.html"><strong>Query 4:</strong></a> Shows the number of recipe ratings categorized by ratings. Could be used in the real world to see popularity of provided recipes.</p>
+    <p><a href="demo/query5.html"><strong>Query 5:</strong></a> Show store types per postal code.</p>
+
+    <h3><br>Ad-hoc Query (Static Preview):</h3>
+    <form method="post" action="demo/execute_query.html">
+        <textarea name="sql_query" rows="6" cols="80" placeholder="Query here..." required></textarea><br><br>
+        <input type="submit" name="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </form>
+
 </body>
 </html>
